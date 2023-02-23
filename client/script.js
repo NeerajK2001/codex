@@ -78,7 +78,7 @@ const handleSubmit = async (e) =>{
   loader(messageDiv);
 
   //fetch response
-  const response = await fetch('http://localhost:4000',{
+  const response = await fetch('https://codex-ai-w1gz.onrender.com/',{
     method: 'POST',
     headers:{
       'Content-Type': 'application/json'
